@@ -1,0 +1,19 @@
+#proyectos3-alimentarte .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.proyectos3-alimentarte img{
+    width: 100%;
+    padding: 8px;
+    justify-content: center;
+}
+.proyectos3-alimentarte{
+    background-color: white;
+    text-align: center;
+}
+@media (min-width:500px){
+    .proyectos3-alimentarte{
+         margin-bottom: 40px;
+    }
+}

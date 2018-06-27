@@ -1,0 +1,18 @@
+#proyectos2-chia .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.proyectos2-chia img{
+    width: 49%;
+    padding: 8px;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+.proyectos2-chia{
+    background-color: white;
+    text-align: center;
+    margin-top: -50px;
+
+}

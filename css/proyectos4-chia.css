@@ -1,0 +1,14 @@
+#proyectos4-chia .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.proyectos4-chia img{
+    width: 100%;
+    margin-bottom: 45px;
+    margin-top: -40px;
+}
+.proyectos4-chia{
+    background-color: white;
+
+}

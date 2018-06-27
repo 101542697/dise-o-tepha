@@ -1,0 +1,13 @@
+#proyectos4-force .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.proyectos4-force img{
+    width: 100%;
+    margin-bottom: 7px;
+}
+.proyectos4-force{
+    background-color: white;
+
+}

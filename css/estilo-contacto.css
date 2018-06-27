@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(menu.css);
+@import url(vinculoso.css);
+@import url(redes-sociales.css);
+@import url(nombre.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    width: 100%;
+    height: auto;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+.contenedori{
+    width: 100%;
+    margin: auto;
+}
+.contenedor-nombre{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+.contenedor-header{
+    width: 100%;
+    margin: auto;
+}
+.contenedro-nombre img{
+    width: 100%;
+}
+header .contenedor{
+    display: table;
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+@media(min-width:1024px){
+    .contenedor{
+        width: 1000px;
+    }
+    .contenedori{
+        width: 1000px;
+    }
+     .contenedor-header{
+        width: 1000px;
+    }
+}
+.container .contenedori{
+    background-color: #990000;
+    padding: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#texto{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+@media (min-width:700px){
+    .contenedori{
+        margin-top: 290px;
+    }
+    .texto{
+        font-size: 18px;
+    }
+}
+@media(min-width:320px){
+    .contenedor-nombre{
+        width: 320px;
+    }
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+
+    
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #262626;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #009999;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    margin-top: 170px;
+    color: white;
+}
+

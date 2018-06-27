@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(redes-sociales.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    width: 100%;
+    height: auto;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+.contenedori{
+    width: 100%;
+    margin: auto;
+}
+header .contenedor{
+    display: table;
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.cielo img{
+    width: 100%;
+    margin-top: -424px;
+    
+}
+.cielo-grande img{
+    width: 100%;
+    margin-top: -50px;
+    
+}
+.vuelo{
+    text-align: center;
+    margin-top: 50px;
+}
+.vuelo a{
+    list-style: none;
+    color: black;
+    border-style: solid;
+    color: #00A79D;
+    padding: 10px;
+    font-size: 9px;
+}
+.vuelo a:hover{
+    color: white;
+    background-color: #00A79D;
+}
+.marca img{
+    width: 100%;
+}
+.nombre img{
+    margin-left: 120px;
+    width: 50%;
+}
+.info h1{
+    text-align: center;
+    color: white;
+    font-size: 0.75em;
+}
+@media(min-width:1208px){
+    .contenedor{
+        width: 1208px;     
+    }
+    .info h1{
+        position: relative;
+        top: 250px;
+        font-size: 1.2em;
+    
+    }
+}
+@media(min-width:200px){
+    .cielo{
+        display: block;
+    }
+    .cielo-grande{
+        display: none;
+    }
+    .vuelo a{
+        font-style: 13px;
+    }
+}
+@media(min-width:768px){
+    .cielo-grande{
+        display: block;
+        margin-top: -639px
+    }
+    .cielo{
+        display: none;
+    }
+    .vuelo{
+        position: relative;
+        top:380px;
+        left: 180px;
+    }
+    .marca img{
+        width: 80%;
+        margin-left: 125px;
+        position: relative;
+        top: 0px;
+        }
+    .nombre img{
+        width: 30%;
+        position: relative;
+        left: 310px;
+        top: -140px;
+    }
+    .info{
+        position: relative;
+        top: 430px;
+    }
+    .vuelo a{
+        position: relative;
+        top: -320px
+    }
+}
+@media(min-width:20px){
+    .marca img{
+        position: relative;
+        top: -50px; 
+    }
+    .vuelo a{
+        position: relative;
+        top: 300px; 
+    }
+    .info{
+        position: relative;
+        top: 150px;
+    }
+    .nombre img{
+        position: relative;
+        top: -30px;
+    }
+}
+
+

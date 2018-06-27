@@ -1,0 +1,17 @@
+#proyectos2-alimentarte .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.proyectos2-alimentarte img{
+    width: 49%;
+    padding: 8px;
+    justify-content: center;
+
+}
+.proyectos2-alimentarte{
+    background-color: white;
+    text-align: center;
+
+}
+

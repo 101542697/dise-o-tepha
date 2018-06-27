@@ -1,0 +1,24 @@
+#vinculosa .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+#vinculosa{
+    margin-top: 177px;
+}
+#vinculosa a{
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+}
+#vinculosa a:hover{
+    color: #009D9D;
+}
+@media(min-width:768px){
+    #vinculosa{
+        font-size: 17px;
+        margin-top: 265px;
+    }
+}
+  

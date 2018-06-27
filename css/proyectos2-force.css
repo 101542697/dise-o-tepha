@@ -1,0 +1,17 @@
+#proyectos2-force .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.proyectos2-force img{
+    width: 49%;
+    padding: 8px;
+    justify-content: center;
+
+}
+.proyectos2-force{
+    background-color: white;
+    text-align: center;
+    margin-top: -50px;
+
+}

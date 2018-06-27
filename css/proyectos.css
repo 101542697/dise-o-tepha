@@ -1,0 +1,12 @@
+#proyectos .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.proyectos img{
+    width: 100%;
+}
+.proyectos{
+    background-color: white;
+    margin-top: -36px;
+}

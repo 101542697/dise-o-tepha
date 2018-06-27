@@ -1,0 +1,20 @@
+#proyectos3 .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.proyectos3 img{
+    width: 32%;
+}
+.proyectos3{
+    background-color: white;
+    text-align: center;
+    margin-top: 8px;
+}
+@media(min-width:768px){
+    .proyectos3 img{
+        width: 19.6%;
+    }
+}
+
+  

@@ -1,0 +1,14 @@
+#proyectos2 .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.proyectos2 img{
+    width: 49%;
+    padding: 8px
+
+}
+.proyectos2{
+    background-color: white;
+    text-align: center;
+}

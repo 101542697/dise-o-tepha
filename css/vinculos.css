@@ -1,0 +1,52 @@
+#vinculos .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+#vinculos{
+    
+}
+#vinculos a{
+    float: left;
+    color: #009D9D;
+    padding: 10px;
+    background-color: black;
+    font-size: 10px;
+}
+#vinculos a:hover{
+    background-color: #009D9D;
+    color: white;
+}
+@media(min-width:1200px){
+    #vinculos a{
+        position: relative;
+        right: 95px;
+        margin-left: 200px;
+        margin-top: 20px;
+        top: 10px;
+    }
+}
+@media(min-width:768px){
+    #vinculos a{
+        position: relative;
+        right: 71px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        top: 10px;
+        font-size: 19px;
+        justify-content: center;
+        position: relative;
+        left: 0px;
+    }
+}
+@media (min-width:200px){
+    #vinculos a{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    }
+}

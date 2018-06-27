@@ -1,0 +1,106 @@
+a{
+
+   text-decoration: none; 
+}
+a.menu{
+    float:left;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: white;
+}
+a.menu:hover{
+    color: #00CBCB;
+}
+a.opcion{
+    float:left;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: black;
+}
+a.opcion:hover{
+    color: #00CBCB;
+}
+a.facebook{
+    float:left;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: block;
+    background-image: url(../imagenes/social-media/facebook-blanco.png);
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    
+}
+a.facebook:hover{
+    background-image: url(../imagenes/social-media/facebook-verde.png);
+}
+a.behance{
+    float:left;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: block;
+    background-image: url(../imagenes/social-media/behance-blanco.png);
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    
+}
+a.behance:hover{
+    background-image: url(../imagenes/social-media/behance-verde.png);
+}
+a.instagram{
+    float:left;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: block;
+    background-image: url(../imagenes/social-media/instagram-blanco.png);
+   width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    
+}
+a.instagram:hover{
+    background-image: url(../imagenes/social-media/instagram-verde.png);
+}
+a.whatsapp{
+    float:left;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: block;
+    background-image: url(../imagenes/social-media/whatsapp-blanco.png);
+   width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    
+}
+a.whatsapp:hover{
+    background-image: url(../imagenes/social-media/whatsapp-verde.png);
+}
+a.linked-in{
+    float:left;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: block;
+    background-image: url(../imagenes/social-media/linkedin-blanco.png);
+   width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    
+}
+a.linked-in:hover{
+    background-image: url(../imagenes/social-media/linkedin-verde.png);
+}
+a.correo{
+    float:left;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: block;
+    background-image: url(../imagenes/social-media/correo-blanco.png);
+   width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    
+}
+a.correo:hover{
+    background-image: url(../imagenes/social-media/correo-verde.png);
+}

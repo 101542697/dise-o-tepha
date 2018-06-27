@@ -1,0 +1,45 @@
+#info4{
+    text-align: left;
+    color: black;
+    padding: 20px; 
+}
+#info4 h1{
+    text-align: left;
+    color: #ff0000;
+    font-size: 33px;
+    margin-bottom: 5px;
+}
+#info4 h2{
+    width: 40%;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: #00CCCC;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+#info4 h3{
+    text-align: left;
+    font-size: 12px; 
+    margin-bottom: 25px;
+}
+#info4 p{
+    text-align: left;
+    font-size: 15px; 
+}
+
+#info4 img{
+    width: 48%;
+    float: right;
+}
+@media(min-width:20px){
+    #info4{
+        display: block;
+    }
+}
+@media(min-width:550px){
+    #info4{
+        display: none;
+    }
+}

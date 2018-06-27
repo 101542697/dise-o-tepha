@@ -1,0 +1,29 @@
+#vinculos2 .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#vinculos2{
+    position: relative;
+    top: -38px;
+}
+#vinculos2 a{
+    color: #009D9D;
+    padding: 10px;
+    background-color: black;
+    font-size: 12px;
+    position: relative;
+    right: -190px;
+}
+#vinculos2 a:hover{
+    background-color: #009D9D;
+    color: white;
+}
+@media(min-width:768px){
+    #vinculos2 a{
+        font-size: 19px;
+        position: relative;
+        right: -410px;
+        top: -8px;
+    }
+}
